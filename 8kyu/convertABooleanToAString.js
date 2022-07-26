@@ -14,3 +14,9 @@ function booleanToString(b){
     return "false"
   }
 }
+
+//Refactor:
+
+function booleanToString(b){
+ return b ? "true" : "false"
+}
