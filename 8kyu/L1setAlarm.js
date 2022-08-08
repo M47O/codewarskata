@@ -19,3 +19,9 @@ else if(employed == false && vacation == false){
 return false}
 else{return true}
 }
+
+//Refactor:
+
+function setAlarm(employed, vacation){
+return (employed && !vacation) ? true : false
+}
