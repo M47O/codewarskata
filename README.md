@@ -15,7 +15,7 @@ The next logical step would be to just use `String.prototype.replace()` and pass
 
 However, as of now, not a single solution of mine makes use of regex, even for kata that call for regex to be used. 
 This is intentional, as it creates opportunities that require using methods I do not regularly use or have never used, 
-thus creating more opportunities to deepen my understanding of these methods and explore new ways in which they can be used.
+thus creating a chance to deepen my understanding of these methods and explore new ways in which they can be used.
 
 ---
 
