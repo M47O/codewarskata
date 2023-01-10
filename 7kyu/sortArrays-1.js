@@ -8,3 +8,8 @@ sortme = function( names ){
     if(a < b) return -1
   })
 }
+
+//Refactor:
+let sortme = function( names ){
+  return names.sort()
+}
