@@ -1,4 +1,5 @@
 # Codewars Kata
+![Picture of my code wars profile](https://user-images.githubusercontent.com/83247557/214599798-d7723dd4-18e4-421b-b3e3-f08f58214c5c.png)
 
 > [Codewars](https://codewars.com) is an educational community for computer programming. On the platform, software developers train on programming challenges known as kata.
 > These discrete programming exercises train a range of skills in a variety of programming languages, and are completed within an online integrated development environment.
