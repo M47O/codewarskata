@@ -10,7 +10,7 @@ Examples
 	sumMul(4, 123) ==> 4 + 8 + 12 + ... = 1860
 	sumMul(4, -7)  ==> "INVALID" */
 
-//Soltuino:
+//Solution:
 function sumMul(n,m){
   let multiples = []
   
