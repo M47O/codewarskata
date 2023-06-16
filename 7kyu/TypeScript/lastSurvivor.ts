@@ -22,6 +22,6 @@ export function lastSurvivor(letters: string, coords: number[]): string {
   for(let i = 0; i < coords.length; i++){
     arrLetters.splice(coords[i], 1)
   }
-  
+
   return arrLetters[0]
 }
