@@ -5,7 +5,7 @@
 > These discrete programming exercises train a range of skills in a variety of programming languages, and are completed within an online integrated development environment.
 
 
-This repo is a collection of my solutions to Codewars challenges (kata). Every solution is written in JavaScript. Every day, I write and push one solution at the very least.
+This repo is a collection of my solutions to Codewars challenges (kata). Every solution is written in JavaScript and TypeScript. Every day, I write and push one solution at the very least.
 
 ---
 
