@@ -8,6 +8,7 @@
 This repo is a collection of my solutions to Codewars challenges (kata). Every solution is written in JavaScript and TypeScript. Every day, I write and push one solution at the very least.
 
 <sup>10/09/2023</sup> I've begun adding my C# kata solutions. I will rewrite this README at a later date to be more representative of the many programming languages I've grown to know and use.
+
 ---
 
 The methods available to accomplish each solution vary from kata to kata, as not every kata is written to use the most up-to-date [NodeJS](https://nodejs.dev/) run-time. 
