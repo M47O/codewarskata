@@ -10,10 +10,10 @@ Examples
 	[1,2,2,3,3,3,4,3,3,3,2,2,1] should return 4, because it appears 1 time (which is odd). */
 
 //Solution:
-function findOdd(A) {
-  let occurences = {}
+xport const findOdd = (xs: number[]): number => {
+    let occurences: Record<string, number> = {}
   
-  for(let int of A){
+  for(let int of xs){
     if(!occurences[int]){
       occurences[int] = 1
     } else {
@@ -24,4 +24,6 @@ function findOdd(A) {
   for(let int in occurences){
     if(occurences[int] % 2 !== 0) return +int
   }
-}
+  
+  return 0 as never
+};
