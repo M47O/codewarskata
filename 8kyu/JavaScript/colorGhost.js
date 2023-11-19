@@ -9,3 +9,11 @@ ghost.color //=> "white" or "yellow" or "purple" or "red" */
 var Ghost = function() {
   this.color = ["white","yellow","purple","red"][Math.floor(Math.random() * 4)];
 };
+
+//Refactor:
+class Ghost {
+  constructor(){
+    const availableColors = ['white', 'yellow', 'purple', 'red']
+    this.color = availableColors[Math.floor(Math.random() * availableColors.length)]
+  }
+}
