@@ -11,5 +11,5 @@ It should look like this:
 export function abbrevName(name: string): string {
    const [firstName, secondName] = name.split(" ")
    
-   return firstName[0] + '.' + secondName[0]
+   return firstName[0].toUpperCase() + '.' + secondName[0].toUpperCase()
 }
