@@ -22,3 +22,14 @@ export function oddOnesOut(nums: number[]) {
       return count % 2 === 0
     })
 }
+
+//Refactor:
+export function oddOnesOut(nums: number[]) {
+  const map: {[key: number]: number}  = {};
+  
+  for(let n of nums){
+    map[n] = (map[n] || 0) + 1;
+  };
+  
+  return nums.filter(n => map[n] % 2 === 0);
+}
