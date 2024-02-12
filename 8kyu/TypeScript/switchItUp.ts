@@ -15,3 +15,9 @@ export function switchItUp(intNumber:number):string {
   
   return numWords[intNumber]
 }
+
+//Refactor:
+export function switchItUp(intNumber:number):string {
+  enum nums {Zero, One, Two, Three, Four, Five, Six, Seven, Eight, Nine}
+  return nums[intNumber]
+}
